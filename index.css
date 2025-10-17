@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'digital';
+    src: url("digital-7\ \(mono\).ttf");
+}
+
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#board {
+    border: 5px solid white;
+    border-radius: 5px;
+    width: 575px;
+    margin: 50px;
+    padding: 0 0 30px;
+    background-color: #182042;
+    text-align: center;
+}
+
+#points-board {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.team {
+    text-align: center;
+}
+
+.team-name {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0;
+}
+
+button {
+    background-color: #182042;
+    color: white;
+    border: 1px solid white;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #182042;
+    border: 1px solid #182042;
+}
+
+button:active {
+    transform: translateY(1px);
+    
+}
+
+.score-board-value {
+    text-align: center;
+    background-color: black;
+    font-size: 60px;
+    color: red;
+    padding: 0 10px;
+    margin: 5px 10px 15px;
+    border-radius: 3px;
+    letter-spacing: 4px;
+    border: 1px solid white;
+    
+}
+
+.large-btn {
+    margin: 25px 5px 0;
+}
+
+
+.digital {
+    font-family: 'digital', sans-serif;
+}
